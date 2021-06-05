@@ -1,0 +1,182 @@
+@media (max-width: 1200px){
+    .promo{
+        &__header{
+            font-size: 37px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .header{
+        &__logo{
+            width: 200px;
+        }
+        &__official{
+            span{
+                font-size: 16px;
+            }
+        }
+        &__phone{
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+    .button{
+        &_header{
+            width: 135px;
+            height: 28px;
+        }
+        &_promo{
+            width: 280px;
+        }
+    }
+    .promo{
+        &__link{
+            font-size: 14px;
+            a{
+                font-size: 16px;
+            }
+        }
+    }
+    .subheader{
+        font-size: 27px;
+    }
+    .advant{
+        padding: 55px 0 68px 0;
+        &__mdescr{
+            font-size: 17px;
+        }
+        &__wrapper{
+            justify-content: space-between;
+        }
+        &__item{
+            margin-top: 55px;
+        }
+        &__descr{
+            width: 200px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .header{
+        &__logo{
+            width: 165px;
+        }
+    }
+    .promo{
+        min-height: 620px;
+        padding: 21px 0 0 0;
+        &__wrapper{
+            margin-top: 65px;
+        }
+        &__header{
+            font-size: 31px;
+        }
+        &__subheader{
+            font-size: 16px;
+        }
+        &__icons{
+            width: 400px;
+        }
+        &__link{
+            font-size: 13px;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+    .button{
+        &_promo{
+            font-size: 14px;
+            width: 250px;
+        }
+    }
+    .subheader{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575px){
+    .header{
+        &__logo{
+            width: 140px;
+        }
+        &__official{
+            font-size: 10px;
+            span{
+                font-size: 13px;
+            }
+        }
+        &__phone{
+            font-size: 13px;
+        }
+    }
+    .button{
+        &_header{
+            font-size: 10px;
+            width: 110px;
+        }
+        &_promo{
+            width: 230px;
+        }
+    }
+    .promo{
+        min-height: 550px;
+        background: url(../img/promo_bg_sm.jpg) center (center/cover) no-repeat;
+        &__wrapper{
+            margin-top: 35px;
+        }
+        &__header{
+            font-size: 29px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__icons{
+            margin-top: 90px;
+            width: 350px;
+        }
+        &__icon{
+            font-size: 12px;
+        }
+    }
+    .subheader{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 441px){
+    .xs-hidden{
+        display: none;
+    }
+    .header{
+        &__logo{
+            width: 170px;
+        }
+        &__phone{
+            font-size: 18px;
+        }
+    }
+    .button{
+        &_header{
+            width: 150px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 23px;
+        }
+        &__subheader{
+            font-size: 13px;
+        }
+        &__icons{
+            margin-top: 115px;
+            width: 370px;
+        }
+    }
+}
