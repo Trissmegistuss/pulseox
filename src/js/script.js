@@ -1,17 +1,18 @@
-window.addEventListener('DOMContentLoaded', () => {
-    const menu = document.querySelector('.menu'),
-    menuItem = document.querySelectorAll('.menu_item'),
-    hamburger = document.querySelector('.hamburger');
-
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('hamburger_active');
-        menu.classList.toggle('menu_active');
-    });
-
-    menuItem.forEach(item => {
-        item.addEventListener('click', () => {
-            hamburger.classList.toggle('hamburger_active');
-            menu.classList.toggle('menu_active');
-        })
-    })
-})
+$(document).ready(function(){    //звертається до документи, а саме коли він готовий, тобто запуск в кінці//
+    $('.carousel__inner').slick({
+        speed: 1000,  
+        autoplay: true,
+        autoplaySpeed:3500,
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.png"></button>',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              dots: true,
+              arrows: false
+            }
+          }
+        ]
+      });
+});
